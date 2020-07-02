@@ -1,0 +1,119 @@
+/*-----big tablet  to 1200px (width smaller than the 1140px row)-----*/
+@media only screen and (max-width:1200px){
+    
+    .img{
+        height: 400px;
+    }
+    .work-img{
+        height: 300px;
+        width: 300px;
+       
+     }
+     blockquote::before{
+        
+        
+        left: 220px;
+    }
+
+}
+
+/*-----small tablet  to big  tablet  :from 678 to 1040px-----*/
+@media only screen and (max-width:1040px){
+   
+ 
+    .img{
+        height: 300px;
+    }
+    .work-img{
+        height: 200px;
+        width: 200px;
+       
+     }
+
+    .contract-section{
+        padding: 4% 30%;
+    }
+  
+}
+
+/*-----small phone to small tablet  :from 481 to 767px-----*/
+@media only screen and (max-width:768px){
+    .hero-section{
+        display: flex;
+        justify-content: center;
+      flex-direction: column-reverse;
+      
+    }
+    .hero-content{
+        padding: 0 15px;
+    }
+    .biography-content{
+        padding: 0 15px;
+    }
+    h1{
+       
+        font-size: 170%;
+        
+    }
+    h3{
+        
+        font-size: 100%;
+    }
+    .work-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .contract-section{
+        padding: 4% 10%;
+    }
+    blockquote{
+        padding: 1% 10%;
+       
+    }
+    blockquote::before{
+      
+        left: 40px;
+    }
+   
+}
+/*-----small phone :from 0 to 480px-----*/
+@media only screen and (max-width:480px){
+
+    h1{
+       
+        font-size: 120%;
+        
+    }
+    h2{
+       
+        font-size: 130%;
+       
+    }
+    h3{
+        
+        font-size: 90%;
+    }
+    p{
+   
+        font-size: 65%;
+        
+    }
+    blockquote{
+        
+        font-size: 60%;
+        
+    }
+    span{
+       
+        font-size: 60%;
+       
+    }
+    .footer-span{
+        font-weight:400;
+        font-size: 50%;
+    }
+    blockquote::before{
+        top: 10px;
+        left: 20px;
+    }
+}

@@ -1,0 +1,189 @@
+/*--------------------------------------------*/
+/*  BASIC SETUP*/
+/*--------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------*/
+/*REUSABLE COMPONNENT*/
+/*--------------------------------------------*/
+
+.img{
+    height: 500px;
+}
+p{
+   
+    font-size: 80%;
+    letter-spacing: 1px;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+h1{
+    font-weight: 500;
+    font-size: 200%;
+    color: #FF2379;
+}
+h2{
+    font-weight: 400;
+    font-size: 160%;
+    padding:5% 0;
+}
+h3{
+    font-weight: 400;
+    font-size: 120%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+.footer-span{
+    font-weight:500;
+    font-size: 60%;
+}
+/*-------BUTTON------*/
+
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding: 3px 20px;
+    font-weight: 400;
+    font-size: 60%;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    -webkit-transition: background-color 0.2s,color 0.2s;
+    transition: background-color 0.2s,color 0.2s;
+
+}
+.btn-click:link,
+.btn-click:visited{
+    background-color: #FF2379;
+    color: #fff;
+   
+   
+}
+.btn:hover,
+.btn:active{
+    background-color:  #ff70a8;
+}
+
+
+/*--------------------------------------------*/
+/*  Hero Section*/
+/*--------------------------------------------*/
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-image: url(./img/top-banner.png);
+   background-repeat: no-repeat;
+}
+.hero-image{
+    padding-left: 2%;
+}
+
+/*--------------------------------------------*/
+/*  biography Section*/
+/*--------------------------------------------*/
+.biography-section{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-image: url(./img/biography-bg.png);
+   background-repeat: no-repeat;
+}
+
+.biography-content{
+    padding-right: 4%;
+}
+
+/*--------------------------------------------*/
+/*  work Section*/
+/*--------------------------------------------*/
+.work-section{
+    display: flex;
+  flex-direction: column;
+ align-items: center;
+ padding: 40px 4%;
+}
+.work-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.work-img{
+   height: 400px;
+   width: 400px;
+   padding:15px 10px;
+}
+
+/*--------------------------------------------*/
+/*  client Section*/
+/*--------------------------------------------*/
+
+.client-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+blockquote{
+    padding: 1% 20%;
+    line-height: initial;
+    text-align: center;
+    line-height: 145%;
+    font-size: 80%;
+    position: relative;
+    margin-top: 40px;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 270px;
+}
+/*--------------------------------------------*/
+/*  contract Section*/
+/*--------------------------------------------*/
+.contract-section{
+    padding: 4% 35%;
+}
+.contract{
+    background-image: linear-gradient(to right,#FF2379, #ff0000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+    padding: 7% 0;
+}
+span{
+    font-weight: 200;
+    font-size: 80%;
+    padding-bottom: 15px;
+}
